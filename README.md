@@ -22,3 +22,23 @@ Total reps: 6
 Total sales: $477,000
 Average sales: $79,500
 Top performer: Frank
+
+
+Calculate each rep's quota achievement percentage, then filter and list only the reps who met or exceeded their quota.
+In this part you will
+
+Keep the summary output from Part 1
+Add an 'Achievement' column: (Sales / Quota * 100) rounded to 1 decimal place
+Filter rows where Sales >= Quota into a new DataFrame
+Print each qualifying rep's name and achievement % on its own line, then print the overall attainment rate as 'X/6'
+Example output
+
+Total reps: 6
+Total sales: $477,000
+Average sales: $79,500
+Top performer: Frank
+Reps who met quota:
+  Alice: 107.4%
+  Charlie: 108.2%
+  Frank: 106.3%
+Quota attainment rate: 3/6
