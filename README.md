@@ -9,3 +9,16 @@ Build the report in visible stages. Inspect the source table, select the columns
 
 The report combines selection and presentation patterns. df.loc[row_label, 'Sales'] selects a labeled value, while idxmax() returns the index label of the row containing the largest value. Use .round(1) for one decimal place, iterrows() when a report must format one row at a time, and f-string formats such as f"${amount:,.0f}" for readable currency.
 
+Build the sales DataFrame and print a quick summary: total reps, total sales, average sales, and the top performer's name.
+In this part you will
+
+Create a DataFrame from the dictionary provided in the starter code
+Print the number of reps using len(df)
+Print the total and average sales formatted with commas and a $ sign
+Print the name of the rep with the highest Sales value
+Example output
+
+Total reps: 6
+Total sales: $477,000
+Average sales: $79,500
+Top performer: Frank
